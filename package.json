@@ -1,0 +1,29 @@
+{
+  "name": "graphql-products-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "GraphQL",
+    "API",
+    "Product Management"
+  ],
+  "author": "Luiso",
+  "license": "ISC",
+  "description": "A Node.js GraphQL API for managing products",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "dotenv": "^16.4.7",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
